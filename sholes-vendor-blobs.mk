@@ -108,3 +108,39 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholes/proprietary/sholes-keypad.kcm.bin:/system/usr/keychars/sholes-keypad.kcm.bin \
     vendor/motorola/sholes/proprietary/cpcap-key.kl:/system/usr/keylayout/cpcap-key.kl \
     vendor/motorola/sholes/proprietary/sholes-keypad.kl:/system/usr/keylayout/sholes-keypad.kl
+
+# All the files necessary for RZ's included kernel
+PRODUCT_COPY_FILES += \
+    vendor/motorola/sholes/rzkernel/fw_wlan1271.bin:/system/etc/wifi/fw_wlan1271.bin \
+    vendor/motorola/sholes/rzkernel/tiwlan.ini:/system/etc/wifi/tiwlan.ini \
+    vendor/motorola/sholes/rzkernel/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
+    vendor/motorola/sholes/rzkernel/act_mirred.ko:/system/lib/modules/act_mirred.ko \
+    vendor/motorola/sholes/rzkernel/act_police.ko:/system/lib/modules/act_police.ko \
+    vendor/motorola/sholes/rzkernel/ah6.ko:/system/lib/modules/ah6.ko \
+    vendor/motorola/sholes/rzkernel/auth_rpcgss.ko:/system/lib/modules/auth_rpcgss.ko \
+    vendor/motorola/sholes/rzkernel/cifs.ko:/system/lib/modules/cifs.ko \
+    vendor/motorola/sholes/rzkernel/cls_u32.ko:/system/lib/modules/cls_u32.ko \
+    vendor/motorola/sholes/rzkernel/em_u32.ko:/system/lib/modules/em_u32.ko \
+    vendor/motorola/sholes/rzkernel/esp6.ko:/system/lib/modules/esp6.ko \
+    vendor/motorola/sholes/rzkernel/ifb.ko:/system/lib/modules/ifb.ko \
+    vendor/motorola/sholes/rzkernel/ipcomp6.ko:/system/lib/modules/ipcomp6.ko \
+    vendor/motorola/sholes/rzkernel/ipip.ko:/system/lib/modules/ipip.ko \
+    vendor/motorola/sholes/rzkernel/ipv6.ko:/system/lib/modules/ipv6.ko \
+    vendor/motorola/sholes/rzkernel/lockd.ko:/system/lib/modules/lockd.ko \
+    vendor/motorola/sholes/rzkernel/nfs.ko:/system/lib/modules/nfs.ko \
+    vendor/motorola/sholes/rzkernel/nfs_acl.ko:/system/lib/modules/nfs_acl.ko \
+    vendor/motorola/sholes/rzkernel/output.ko:/system/lib/modules/output.ko \
+    vendor/motorola/sholes/rzkernel/ramzswap.ko:/system/lib/modules/ramzswap.ko \
+    vendor/motorola/sholes/rzkernel/rpcsec_gss_krb5.ko:/system/lib/modules/rpcsec_gss_krb5.ko \
+    vendor/motorola/sholes/rzkernel/sch_htb.ko:/system/lib/modules/sch_htb.ko \
+    vendor/motorola/sholes/rzkernel/sch_ingress.ko:/system/lib/modules/sch_ingress.ko \
+    vendor/motorola/sholes/rzkernel/sit.ko:/system/lib/modules/sit.ko \
+    vendor/motorola/sholes/rzkernel/sunrpc.ko:/system/lib/modules/sunrpc.ko \
+    vendor/motorola/sholes/rzkernel/tiwlan_drv.ko:/system/lib/modules/tiwlan_drv.ko \
+    vendor/motorola/sholes/rzkernel/tunnel4.ko:/system/lib/modules/tunnel4.ko \
+    vendor/motorola/sholes/rzkernel/tunnel6.ko:/system/lib/modules/tunnel6.ko \
+    vendor/motorola/sholes/rzkernel/xfrm6_mode_beet.ko:/system/lib/modules/xfrm6_mode_beet.ko \
+    vendor/motorola/sholes/rzkernel/xfrm6_mode_transport.ko:/system/lib/modules/xfrm6_mode_transport.ko \
+    vendor/motorola/sholes/rzkernel/xfrm6_mode_tunnel.ko:/system/lib/modules/xfrm6_mode_tunnel.ko \
+    vendor/motorola/sholes/rzkernel/xfrm6_tunnel.ko:/system/lib/modules/xfrm6_tunnel.ko \
+    vendor/motorola/sholes/rzkernel/xfrm_ipcomp.ko:/system/lib/modules/xfrm_ipcomp.ko
