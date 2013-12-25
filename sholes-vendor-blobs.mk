@@ -159,7 +159,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholes/gapps/VerizonLoginClient.apk:/data/app/VerizonLoginClient.apk \
     vendor/motorola/sholes/gapps/VisualizationWallpapers.apk:/data/app/VisualizationWallpapers.apk \
     vendor/motorola/sholes/gapps/VoiceDialer.apk:/data/app/VoiceDialer.apk \
-    vendor/motorola/sholes/gapps/WirelessTether.apk:/data/app/WiredTether.apk
+    vendor/motorola/sholes/gapps/WiredTether.apk:/data/app/WiredTether.apk \
+    vendor/motorola/sholes/gapps/WirelessTether.apk:/data/app/WirelessTether.apk
 
 # Steel Droid Gapps - /system/*
 PRODUCT_COPY_FILES += \
@@ -172,6 +173,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholes/gapps/GooglePartnerSetup.apk:/system/app/GooglePartnerSetup.apk \
     vendor/motorola/sholes/gapps/GoogleServicesFramework.apk:/system/app/GoogleServicesFramework.apk \
     vendor/motorola/sholes/gapps/MarketUpdater.apk:/system/app/MarketUpdater.apk \
+    vendor/motorola/sholes/gapps/MediaProvider.apk:/system/app/MediaProvider.apk \
     vendor/motorola/sholes/gapps/MediaUploader.apk:/system/app/MediaUploader.apk \
     vendor/motorola/sholes/gapps/NetworkLocation.apk:/system/app/NetworkLocation.apk \
     vendor/motorola/sholes/gapps/OneTimeInitializer.apk:/system/app/OneTimeInitializer.apk \
