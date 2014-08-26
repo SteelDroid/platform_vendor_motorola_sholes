@@ -16,10 +16,7 @@
 
 # Live wallpaper packages
 PRODUCT_PACKAGES := \
-    LiveWallpapers \
     LiveWallpapersPicker \
-    MagicSmokeWallpapers \
-    VisualizationWallpapers \
     SteelBox \
     librs_jni
 
